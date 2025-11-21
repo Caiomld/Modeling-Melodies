@@ -68,22 +68,27 @@ The code extracts statistical properties from a music dataset — specifically t
 
 # 🎥 Application Demo
 
-***Transition Matrix Heatmap (J)***
+***Probability Distribution:***
+*Calculating the probability distribution of the dataset notes, used to derive the $h$ vector.*
+
+![Notes Probability Distribution](Figures/probabilidade_notas_musicais.png)
+
+***Transition Matrix Heatmap (J):***
 *Visualizing the probability of note-to-note transitions derived from the corpus.*
 
 ![Transition Matrix](Figures/matriz_contagem_transicoes.png)
 
-***Melody Evolution at Low Temperature (T=1)***
+***Melody Evolution at Low Temperature (T=1):***
 *A monotonous, unchanging sequence, where the system collapses into the ground state energy.*
 
 ![Melody T=1](Figures/melodia_T_1.jpg)
 
-***Melody Evolution at Intermediate Temperature (T=50)***
+***Melody Evolution at Intermediate Temperature (T=50):***
 *A coherent melody emerging from the simulation, balancing order and variation.*
 
 ![Melody T=50](Figures/melodia_T_50.jpg)
 
-***Melody Evolution at High Temperature (T=1000)***
+***Melody Evolution at High Temperature (T=1000):***
 *A chaotic sequence where thermal noise dominates the musical rules.*
 
 ![Melody T=1000](Figures/melodia_T_1000.jpg)
