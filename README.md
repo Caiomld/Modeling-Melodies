@@ -81,17 +81,17 @@ The code extracts statistical properties from a music dataset — specifically t
 ***Melody Evolution at Low Temperature (T=0.001):***
 *A monotonous, unchanging sequence, where the system collapses into the ground state energy.*
 
-![Melody T=1](Figures/melodia_T_0_001.jpg)
+![Melody T=1](Figures/melodia_T_0.001.png)
 
 ***Melody Evolution at Intermediate Temperature (T=30):***
 *A coherent melody emerging from the simulation, balancing order and variation.*
 
-![Melody T=50](Figures/melodia_T_30.jpg)
+![Melody T=50](Figures/melodia_T_30.png)
 
 ***Melody Evolution at High Temperature (T=1000):***
 *A chaotic sequence where thermal noise dominates the musical rules.*
 
-![Melody T=1000](Figures/melodia_T_1000.jpg)
+![Melody T=1000](Figures/melodia_T_1000.png)
 
 # 🖥️ Tools Used
 - **Jupyter Notebook**: Main development environment.
