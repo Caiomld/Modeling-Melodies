@@ -1,5 +1,5 @@
 <h1 align="center">
-    🎶 Modeling Melodies 🎶  </a>
+    🎶 Modeling Melodies - A Statistical Approach 🎶  </a>
 </h1>
 <p align="center">
   This project applies concepts from Statistical Mechanics to analyze musical corpora and generate new melodies using the Metropolis Monte Carlo algorithm.
@@ -29,7 +29,7 @@
 
 This project was developed to explore the intersection of Physics and Music. By treating a melody as a chain of interacting states (notes), we model the composition process as a thermodynamic system seeking equilibrium.
 
-The code extracts statistical properties from a dataset—specifically the intrinsic note probability (external field $h$) and note-to-note transition probabilities (interaction matrix $J$)—to define a Hamiltonian energy function. Using Metropolis Monte Carlo (MCMC) simulations, we generate novel melodies by controlling the system's "temperature," allowing us to navigate between rigid order (monotony) and random disorder (noise).
+The code extracts statistical properties from a music dataset — specifically the intrinsic note probability (external field $h$) and note-to-note transition probabilities (interaction matrix $J$) — to define a Hamiltonian energy function. Using Metropolis Monte Carlo (MCMC) simulations, we generate novel melodies by controlling the system's temperature, allowing us to navigate between rigid order (monotony) and random disorder (white noise).
 
 # 📁 Access and Usage
 
@@ -53,7 +53,9 @@ The code extracts statistical properties from a dataset—specifically the intri
   - Calculates the **Interaction Matrix ($J$)**: The transition probabilities between adjacent notes (Markov Chain).
   
 - **`Thermodynamic Modeling`**: 
-  - Defines the system's Hamiltonian: $E = - \sum h_i - \sum J_{i, i+1}$.
+  - Defines the system's Hamiltonian: $H = - \sum_{\langle i,j \rangle} J(\sigma_i \sigma_j) -  \sum_i h(\sigma_i)$
+    
+    Where $\sigma_i, \sigma_j$ is the adjacent notes 
   
 - **`Metropolis Monte Carlo Simulation`**: 
   - Implements the MCMC algorithm to evolve a random melody towards a stable energy state based on the Boltzmann distribution.
@@ -66,10 +68,15 @@ The code extracts statistical properties from a dataset—specifically the intri
 
 # 🎥 Application Demo
 
-***Transition Matrix Heatmap ($J$)***
+***Transition Matrix Heatmap (J)***
 *Visualizing the probability of note-to-note transitions derived from the corpus.*
 
 ![Transition Matrix](Figures/matriz_contagem_transicoes.png)
+
+***Melody Evolution at Low Temperature (T=1)***
+*A monotonous, unchanging sequence, where the system collapses into the ground state energy.*
+
+![Melody T=1](Figures/melodia_T_1.jpg)
 
 ***Melody Evolution at Intermediate Temperature (T=50)***
 *A coherent melody emerging from the simulation, balancing order and variation.*
@@ -94,9 +101,10 @@ The code extracts statistical properties from a dataset—specifically the intri
 - **Statistical Mechanics of Music**: Methods to model composition using Ising/Potts models.
 - **Metropolis Algorithm**: *Equation of State Calculations by Fast Computing Machines* (1953).
 - **Algorithmic Composition**: Techniques for generating music using Markov Chains and stochastic processes.
+- **Folk Tune Finder**: Dataset of different music genres, varying rhythm keys, modes and more. 
 
 # 🫂 Acknowledgments
-- **Prof. Felipe David Crasto de Lima** - Responsible for the course/discipline where this work was developed.
+- **Prof. Felipe David Crasto de Lima** - Responsible for the course/discipline where this work was developed. Helped with the assembly of the algorithms used, adapting them for the statistical analysis.
 
 # 👨‍💻 Developers
 
