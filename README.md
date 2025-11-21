@@ -100,5 +100,5 @@ The code extracts statistical properties from a dataset—specifically the intri
 
 # 👨‍💻 Developers
 
-| [Caio M. Leão Dantas </sub>](https://github.com/Caiomld) |  [Enzo J. Xavier </sub>](https://github.com/EnzoJanuzzi) |  [Rafael A. S. Santos </sub>](https://github.com/RafaelShaikhzadeh) | [Thomas W. Hannemann </sub>](https://github.com/LuzMendes) |
+| [Caio M. Leão Dantas </sub>](https://github.com/Caiomld) |  [Enzo J. Xavier </sub>](https://github.com/EnzoJanuzzi) |  [Rafael A. S. Santos </sub>](https://github.com/RafaelShaikhzadeh) | [Thomas W. Hannemann </sub>](https://github.com/ThomasHannemann) |
 | :---: | :---: | :---: | :---: |
