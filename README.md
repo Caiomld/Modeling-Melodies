@@ -78,15 +78,15 @@ The code extracts statistical properties from a music dataset — specifically t
 
 ![Transition Matrix](Figures/matriz_contagem_transicoes.png)
 
-***Melody Evolution at Low Temperature (T=1):***
+***Melody Evolution at Low Temperature (T=0.001):***
 *A monotonous, unchanging sequence, where the system collapses into the ground state energy.*
 
-![Melody T=1](Figures/melodia_T_1.jpg)
+![Melody T=1](Figures/melodia_T_0_001.jpg)
 
-***Melody Evolution at Intermediate Temperature (T=50):***
+***Melody Evolution at Intermediate Temperature (T=30):***
 *A coherent melody emerging from the simulation, balancing order and variation.*
 
-![Melody T=50](Figures/melodia_T_50.jpg)
+![Melody T=50](Figures/melodia_T_30.jpg)
 
 ***Melody Evolution at High Temperature (T=1000):***
 *A chaotic sequence where thermal noise dominates the musical rules.*
